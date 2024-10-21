@@ -46,7 +46,7 @@ Navigate to the folder of the project you want to explore.
 
    ```bash
    terraform apply
-      ```
+   ```
 
 ## Contributing
 
