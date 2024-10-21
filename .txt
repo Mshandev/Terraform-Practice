@@ -1,0 +1,33 @@
+Run command = terraform plan
+
+Giving variable value command = terraform plan -var "username=Shan"
+
+Giving multiple values = terraform plan -var "username=Shan" -var "age=10"
+
+Giving List Values = terraform plan -var 'username=["Shan","Hello","Kashif"]'
+
+custom variable file = terraform plan -var-file=filename
+
+environment variable = $env:TF_VAR_username="John Doe"
+
+check providers = terraform providers
+
+initialize providers = terraform init
+
+run resources = terraform apply --auto-approve
+
+remove all resources = terraform destroy
+
+remove one resource = terraform destroy resourceType.resourceName
+
+check valid configuration = terraform validate
+
+fetch new changes = terraform refresh
+
+print any output = terraform output first-repo-url
+
+console = terraform console
+
+proper indentation = terraform fmt
+
+generate key pairs = ssh-keygen -t rsa 
