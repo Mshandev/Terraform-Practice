@@ -27,7 +27,7 @@ To get started with any of these projects:
 ## Clone the Repository
    ```bash
    git clone https://github.com/Mshandev/Terraform-Practice.git
-   cd <Terraform-Practice>
+   cd Terraform-Practice
    ```
 
 ## Install Terraform
@@ -44,9 +44,9 @@ Navigate to the folder of the project you want to explore.
 
 ## Apply the Configuration:
 
-```bash
+   ```bash
    terraform apply
-   ```
+      ```
 
 ## Contributing
 
